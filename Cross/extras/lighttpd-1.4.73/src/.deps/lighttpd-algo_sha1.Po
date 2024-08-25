@@ -1,0 +1,82 @@
+lighttpd-algo_sha1.o: algo_sha1.c first.h ../config.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/sys/types.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/features.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/uClibc_config.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/sys/cdefs.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/types.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/wordsize.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/typesizes.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/time.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include/stddef.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/endian.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/endian.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/byteswap.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/byteswap.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/byteswap-common.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/byteswap-16.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/sys/select.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/select.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/sigset.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/time.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/sys/sysmacros.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/pthreadtypes.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include/stdint.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/stdint.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/wchar.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include-fixed/limits.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include-fixed/syslimits.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/limits.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/posix1_lim.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/local_lim.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/linux/limits.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/uClibc_local_lim.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/posix2_lim.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/xopen_lim.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/stdio_lim.h \
+ sys-crypto-md.h sys-crypto.h algo_md5.h algo_sha1.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/inttypes.h \
+ sys-endian.h \
+ /home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/string.h
+first.h:
+../config.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/sys/types.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/features.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/uClibc_config.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/sys/cdefs.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/types.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/wordsize.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/typesizes.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/time.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include/stddef.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/endian.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/endian.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/byteswap.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/byteswap.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/byteswap-common.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/byteswap-16.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/sys/select.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/select.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/sigset.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/time.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/sys/sysmacros.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/pthreadtypes.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include/stdint.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/stdint.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/wchar.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include-fixed/limits.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/lib/gcc/arm-linux-uclibcgnueabi/10.3.1/include-fixed/syslimits.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/limits.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/posix1_lim.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/local_lim.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/linux/limits.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/uClibc_local_lim.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/posix2_lim.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/xopen_lim.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/bits/stdio_lim.h:
+sys-crypto-md.h:
+sys-crypto.h:
+algo_md5.h:
+algo_sha1.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/inttypes.h:
+sys-endian.h:
+/home/hunqp/Toolchains/asdk-10.3.1-a7-EL-5.4-u1.0-a32nh-220218/arm-linux-uclibcgnueabi/usr/include/string.h:

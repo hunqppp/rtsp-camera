@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "path_configure.h": "c",
+        "ezxml_wrapper.h": "c",
+        "stdio.h": "c",
+        "debug.h": "c",
+        "path_editor.h": "c",
+        "*.original": "c",
+        "*.custom": "c",
+        "onvif_definition.h": "c",
+        "vvtk_system.h": "c",
+        "onvif_simple_server.h": "c",
+        "cjson.h": "c"
+    }
+}
